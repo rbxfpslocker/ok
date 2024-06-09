@@ -7,7 +7,7 @@ getgenv().SilentAim = {
 	},
 	FOV = {
 		Enabled = true,
-		Size = 20,
+		Size = 40,
 		Filled = false,
 		Thickness = 0.66,
 		Transparency = 0.0,
