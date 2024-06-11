@@ -33,7 +33,7 @@ local Utility = {
         5602055394, -- Hood Modded
         7951883376, -- Hood Modded VC
         17108910530, -- Dah Aim Trainer
-        13028119245, -- KatanaHood
+       16349376036, -- KatanaHood
         7242996350, -- Da Hood Aim Trainer
         12884917481, -- Da Hood Aim Trainer VC
         17319408836, -- Dae Hood
@@ -53,7 +53,7 @@ elseif game.PlaceId == 17108910530 then -- // Dah Aim Trainer
 elseif game.PlaceId == 7242996350 or game.PlaceId == 12884917481 then -- // Da Hood Aim Trainer
     Utility.Method = "UpdateMousePos" 
         MainRemote = game:GetService("ReplicatedStorage").MainEvent
-elseif game.PlaceId == 13028119245 then -- // Katana Hood
+elseif game.PlaceId == 16349376036 then -- // Katana Hood
     Utility.Method = "UpdateMousePos"
         MainRemote = game:GetService("ReplicatedStorage").MainEvent
 elseif game.PlaceId == 17319408836 then -- // Dae Hood
